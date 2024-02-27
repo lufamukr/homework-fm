@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/homework-fm/static/css/main.073c9b0a.css",
+    "main.js": "/homework-fm/static/js/main.0a8d7619.js",
+    "static/js/787.177e23c2.chunk.js": "/homework-fm/static/js/787.177e23c2.chunk.js",
+    "index.html": "/homework-fm/index.html",
+    "main.073c9b0a.css.map": "/homework-fm/static/css/main.073c9b0a.css.map",
+    "main.0a8d7619.js.map": "/homework-fm/static/js/main.0a8d7619.js.map",
+    "787.177e23c2.chunk.js.map": "/homework-fm/static/js/787.177e23c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0a8d7619.js"
+  ]
+}
