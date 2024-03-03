@@ -1,8 +1,8 @@
 import { ChangeEvent } from "react";
 
 type InputPropsType = {
-	currentText: string; // НУЖНО ПРОТИПИЗИРОВАТЬ
-	setCurrentText: Function; // НУЖНО ПРОТИПИЗИРОВАТЬ
+	currentText: string; 
+	setCurrentText: Function; 
 };
 
 export const Input = (props: InputPropsType) => {
