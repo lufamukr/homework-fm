@@ -2,12 +2,11 @@ import { ChangeEvent } from "react";
 
 type InputPropsType = {
 	currentText: string; // НУЖНО ПРОТИПИЗИРОВАТЬ
-	setCurrentText: (val:string) => void; // НУЖНО ПРОТИПИЗИРОВАТЬ
+	setCurrentText: Function; // НУЖНО ПРОТИПИЗИРОВАТЬ
 };
 
 export const Input = (props: InputPropsType) => {
 	const onChangeHandler = (event: ChangeEvent<HTMLInputElement>) => {
-		// НУЖНО ДОПИСАТЬ
 		props.setCurrentText(event.currentTarget.value)
 	};
 
