@@ -22,10 +22,6 @@ export const HW4 = () => {
     setCurrentText('');
   };
 
-  const handler = (val:string) => {
-    setCurrentText(val);
-  }
-
   return (
     <div id={'hw04'}>
       {currentText ? (
